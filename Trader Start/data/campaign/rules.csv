@@ -1,0 +1,8 @@
+id,trigger,conditions,script,text,options,notes
+traderstart_ngcTraderStart,AddNewGameChoices,,"SetTooltip traderstart_ngcTrader ""A trade fleet comprises of a Lasher-class frigate, a Colossus-class freighter and a Pheaton-class tanker.""",,"6:traderstart_ngcTrader:A trader, commanding a Colosuss-class heavy freighter",
+traderstart_ngcTraderPicked,NewGameOptionSelected,$option == traderstart_ngcTrader,"NGCAddShip lasher_Standard
+NGCAddShip colossus_Standard
+NGCAddShip phaeton_Standard
+NGCAddCredits 68000
+$traderstart_ngcTraderSelected = true
+FireAll NGCDifficultyOptions",,,

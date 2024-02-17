@@ -1,0 +1,8 @@
+{
+    "id": "traderstart",
+    "name": "Trader start",
+    "author": "tnth",
+    "version": "1.0",
+    "description": "Add an option to start the game as a trader with a Lasher-class frigate, a Colossus-class freighter, a Pheaton-class tanker and more credits.",
+    "gameVersion": "0.97a-RC7"
+}

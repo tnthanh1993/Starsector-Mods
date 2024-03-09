@@ -1,0 +1,10 @@
+name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sModDesc,sprite
+Downgraded Logistics System,downgraded_lo_system,0,,,"req_spaceport, merc, standard","Logistics, Requires Dock",4000,TRUE,,,3,6,9,15,data.hullmods.DowngradedLogisticsSystem,"Reduces supply use for maintenance, fuel use, and minimum crew required by %s.
+
+Reduces crew, cargo, and fuel capacity by %s.",Reduces ongoing costs.,,graphics/hullmods/downgraded_lo_system.png
+Downgraded Combat System,downgraded_co_system,0,,,"req_spaceport, merc, standard","Logistics, Requires Dock",4000,TRUE,,,3,6,9,15,data.hullmods.DowngradedCombatSystem,"Reduces supply use for maintenance, fuel use, and minimum crew required by %s.
+
+Reduces weapon range by %s.
+Reduces weapon turn rate by %s.
+Increases recoil by %s.
+Reduces flux capacity and flux dissipation rate by %s.",Reduces ongoing costs.,,graphics/hullmods/downgraded_co_system.png

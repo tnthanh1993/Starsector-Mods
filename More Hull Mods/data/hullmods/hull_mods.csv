@@ -1,10 +1,9 @@
 name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sModDesc,sprite
-Downgraded Logistics System,downgraded_lo_system,0,,,"req_spaceport, merc, standard","Logistics, Requires Dock",4000,TRUE,,,3,6,9,15,data.hullmods.DowngradedLogisticsSystem,"Reduces supply use for maintenance, fuel use, and minimum crew required by %s.
+Lightweight Hull,lightweight_hull,0,,,"req_spaceport, merc, standard","Special, Requires Dock",4000,TRUE,,,5,10,15,25,data.hullmods.LightweightHull,"Uses lightweight material in the construction of the hull, significantly reduces the ship's tonnage.
 
-Reduces crew, cargo, and fuel capacity by %s.",Reduces ongoing costs.,,graphics/hullmods/downgraded_lo_system.png
-Downgraded Combat System,downgraded_co_system,0,,,"req_spaceport, merc, standard","Logistics, Requires Dock",4000,TRUE,,,3,6,9,15,data.hullmods.DowngradedCombatSystem,"Reduces supply use for maintenance, fuel use, and minimum crew required by %s.
-
-Reduces weapon range by %s.
-Reduces weapon turn rate by %s.
-Increases recoil by %s.
-Reduces flux capacity and flux dissipation rate by %s.",Reduces ongoing costs.,,graphics/hullmods/downgraded_co_system.png
+Reduces fuel use by %s.
+Increases maximum burn level by %s.
+Increases the ship's maneuverability by %s.
+Increases the ship's top speed in combat by %s.
+Reduces hull integrity by %s.
+Reduces armor by %s.",Reduces fuel usage and increases mobility.,,graphics/hullmods/lightweight_hull.png
